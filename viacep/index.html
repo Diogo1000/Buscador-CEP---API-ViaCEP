@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar cep</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="home">
+        <img src="img/icons8-postal-64.png" alt="Logo" id="logo">
+        <h1>Buscador de CEP</h1>
+    </div>
+    <div id="buscarCep">
+        <form action="" id="burcar-cep">
+            <label for="cep">Digite o cep:</label>
+            <input type="text" id="cep" maxlength="8" placeholder=" exemplo: 01001000">
+            <button id="btnBuscar">Buscar</button>
+        </form>
+    </div>
+    <br>
+    <div id="resultado">
+        <p id="logradouro"></p>
+        <p id="bairro"></p>
+        <p id="localidade"></p>
+        <p id="uf"></p>
+        <p id="estado"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
