@@ -19,4 +19,4 @@ Este é um projeto simples de buscador de CEP que consome a [API pública ViaCEP
 
 ## 📸 Demonstração
 
-![Demonstração do projeto](screenshot.png)
+![Demonstração do projeto](/viacep/img/screenshot.png)
